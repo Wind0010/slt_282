@@ -48,6 +48,6 @@ def say_hello(name):
 git add decorator_house.py
 git commit -m "Добавлен декоратор в decorator_house.py"
 git push -u origin new-decorator-feature
-https://github.com/ваш_пользователь/ваш_репозиторий/tree/new-decorator-feature
+
 
 say_hello("Peace")
