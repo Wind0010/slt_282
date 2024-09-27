@@ -24,3 +24,6 @@ git add .
 git commit -m "Создание 50 аккаунтов"
 git push -u origin account-creation
 git checkout master
+git pull origin master
+git merge account-creation
+git push origin main
