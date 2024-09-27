@@ -28,3 +28,26 @@ git pull origin master
 git merge account-creation
 git push origin main
 
+#Quesiton 3
+git checkout -b new-decorator-feature
+touch decorator_house.py
+git checkout -b new-decorator-feature
+
+def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        print("wassup")
+        result = func(*args, **kwargs)
+        print("what did u need to be a comfortable.")
+        return result
+    return wrapper
+
+@my_decorator
+def say_hello(name):
+    print(f"Hello, {name}!")
+
+git add decorator_house.py
+git commit -m "Добавлен декоратор в decorator_house.py"
+git push -u origin new-decorator-feature
+https://github.com/ваш_пользователь/ваш_репозиторий/tree/new-decorator-feature
+
+say_hello("Peace")
